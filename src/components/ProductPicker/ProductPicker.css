@@ -30,3 +30,16 @@
     border-radius: 100px;
     transition: .5s all ease;
 }
+
+.final-election{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.final-election div{
+    width: 50px;
+    height: 50px;
+}
+.final-election div img{
+    width: 100%;
+}

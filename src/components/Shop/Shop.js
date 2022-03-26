@@ -5,7 +5,6 @@ import './Shop.css';
 const Shop = () => {
     const [laptops, setLaptops] = useState([]);
     const [picked, setPicked] = useState([]);
-    // console.log(picked);
     useEffect(()=>{
         fetch('laptops.json')
         .then(response=>response.json())
@@ -15,7 +14,6 @@ const Shop = () => {
     // add to cart handler
     const selectLaptop = (laptop) =>{
         const{id} = laptop;
-        console.log(id);
         const exist = picked.find(p => p.id === id);
 
         if(!exist){
@@ -25,12 +23,30 @@ const Shop = () => {
        
     }
 
+    // delete item
+    const deleteItem = (product) =>{
+    //     const {id} = product; 
+    }
+
+    const [finalSelect, setFinalSelect] = useState({});
+    // Chose One 
+    const choseOne = () =>{
+        const randomNumber = Math.floor(Math.random() * picked.length);
+        const data = picked[randomNumber];
+        setFinalSelect(data);
+        console.log(finalSelect);
+        
+    }
+
+
+
     // chose again handler
     const choseAgain = () => {
         const removeAll = [];
         if(picked.length>0){
             setPicked(removeAll);
         }
+
     }
 
     return (
@@ -43,7 +59,7 @@ const Shop = () => {
                 </div>
                 <div className="picker-area">
                     {
-                        <ProductPicker pickedLaptops={picked} choseAgain={choseAgain}></ProductPicker>
+                        <ProductPicker pickedLaptops={picked} choseOne={choseOne} choseAgain={choseAgain} deleteItem={deleteItem} final={choseOne} finalSelect={finalSelect}></ProductPicker>
                     }
                 </div>
             </div>

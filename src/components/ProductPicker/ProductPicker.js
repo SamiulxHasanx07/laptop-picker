@@ -1,21 +1,42 @@
 import React from 'react';
 import AddedItem from './AddedItem';
 import './ProductPicker.css';
+const ProductPicker = ({pickedLaptops, choseAgain, deleteItem, choseOne, finalSelect}) => {
 
-const ProductPicker = ({pickedLaptops, choseAgain}) => {
-
+    let {name, image, price} = finalSelect;
+    
     return (
         <div className='pd-picker-area'>          
             <h3>Selected Laptop</h3>
             {
-                pickedLaptops.map(laptop=><AddedItem selected={laptop} key={laptop.id}></AddedItem>)
+                pickedLaptops.map(laptop=><AddedItem deleteItem={deleteItem} selected={laptop} key={laptop.id}></AddedItem>)
             }
             <div className="chose-btn">
-                <button className='chose chose-one'>Chose One</button>
+                <button onClick={choseOne} className='chose chose-one'>Chose One</button>
                 <button onClick={choseAgain} className='chose chose-again'>Chose Again</button>
+            </div>
+            {/* <FinalOne winner={winner}></FinalOne> */}
+            <div>
+                <h3>Final Selected Item:</h3>
+                <div className='final-election'>
+                    <div>
+                        <img src={image} alt="" />
+                    </div>
+                    <h5>{name}</h5>
+                    <p>{price}</p>
+                </div>
             </div>
         </div>
     );
 };
+
+// const FinalOne = () => {
+//     return(
+//         <div>
+//             <h2>Selected Product Is:</h2>
+//         </div>
+//     );
+// }
+
 
 export default ProductPicker;

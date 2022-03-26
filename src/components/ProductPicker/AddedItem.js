@@ -2,7 +2,7 @@ import React from 'react';
 import './AddedItem.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
-const AddedItem = ({selected}) => {
+const AddedItem = ({selected, deleteItem}) => {
     return (
         <div>  
              <div className="display-selected-product">
@@ -10,7 +10,7 @@ const AddedItem = ({selected}) => {
                     <img src={selected.image} alt="" />
                  </div>
                  <h4 className='selected-title'>{selected.name.slice(0, 38)}...</h4>
-                 <button className='delete-pd'><FontAwesomeIcon icon={faTrashCan}/></button>
+                 <button onClick={()=>deleteItem(selected)} className='delete-pd'><FontAwesomeIcon icon={faTrashCan}/></button>
                  
              </div>
         </div>
