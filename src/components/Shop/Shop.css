@@ -13,9 +13,18 @@
 }
 
 
+@media only screen and (max-width: 1000px) {
+    .product-area{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px 10px;
+    }
+    .shop-container{
+        padding: 0 7px;
+    }
+}
 @media only screen and (max-width: 1366px) {
     .shop-container{
-        padding: 0 20px;
+        padding: 0 7px;
         display: flex;
     }
 }
