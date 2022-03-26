@@ -1,5 +1,5 @@
 import React from 'react';
-import AddedItem from './AddedItem';
+import AddedItem from '../AddedItem/AddedItem';
 import './ProductPicker.css';
 const ProductPicker = ({pickedLaptops, choseAgain, deleteItem, choseOne, finalSelect}) => {
 

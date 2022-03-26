@@ -16,29 +16,29 @@ const Shop = () => {
         const{id} = laptop;
         const exist = picked.find(p => p.id === id);
 
-        if(!exist){
-            const selectedCart = [...picked, laptop];
-            setPicked(selectedCart);
+        if(picked.length<=3){
+            if(!exist){
+                const selectedCart = [...picked, laptop];
+                setPicked(selectedCart);
+            }
         }
        
     }
 
     // delete item
     const deleteItem = (product) =>{
-    //     const {id} = product; 
+        const filter = picked.filter(p => p.id !== product.id);
+        setPicked(filter);
     }
 
-    const [finalSelect, setFinalSelect] = useState({});
     // Chose One 
+    const [finalSelect, setFinalSelect] = useState({});
     const choseOne = () =>{
         if(picked.length>0){
             const randomNumber = Math.floor(Math.random() * picked.length);
             const data = picked[randomNumber];
             setFinalSelect(data);
-            console.log(finalSelect);
-
-        }
-        
+        }     
     }
 
 
