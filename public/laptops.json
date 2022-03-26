@@ -1,0 +1,134 @@
+[
+  {
+    "id": "623de7dddcf7ebdae084b027",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/1.jpg",
+    "name": "Asus ZenBook 14 UX425EA Core i7 11th Gen",
+    "price": 640,
+    "model": "ZenBook 14 UX425EA",
+    "processor": "Intel Core i7-1165G7 Processor (12M Cache, 2.80 GHz up to 4.70 GHz)",
+    "ram": "8GB 4266MHz LPDDR4X RAM",
+    "storage": "512GB PCIeG3 NVMe SSD",
+    "display": "14inch Full HD (1920x1080) IPS Display"
+  },
+  {
+    "id": "623de7ddfec48ffcdad165de",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/2.jpg",
+    "name": "MSI GF63 THIN 11UC Core i7 11th Gen 512GB SSD",
+    "price": 747,
+    "model": "GF63 THIN 11UC",
+    "processor": "Intel Core i7-11800H Processor (24M Cache, 2.30 GHz up to 4.60 GHz)",
+    "ram": "8GB DDR4 3200MHz RAM",
+    "storage": "512GB NVMe PCIe Gen3x4 SSD",
+    "display": "15.6inche FHD Display"
+  },
+  {
+    "id": "623de7dd9698a726371bdce9",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/3.jpg",
+    "name": "HP Pavilion x360 Convertible 14-dy1290TU Core i5 11th Gen 14inch FHD Touch Laptop",
+    "price": 577,
+    "model": "",
+    "processor": "Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz)",
+    "ram": "8 GB DDR4-3200 MHz RAM",
+    "storage": "512 GB PCIe NVMe M.2 SSD",
+    "display": "14inch FHD (1920 x 1080) multitouch"
+  },
+  {
+    "id": "623de7dd44390c2083c26e2e",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/4.jpg",
+    "name": "Dell Inspiron 14 5410 2-in-1 Core i5 11th Gen MX350 2GB Graphics 14inch Touch Laptop",
+    "price": 833,
+    "model": "Inspiron 14 5410 2-in-1",
+    "processor": "Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz)",
+    "ram": "8GB 3200MHz; SSD: 512GB M.2 PCIe NVMe",
+    "storage": "1TB HDD & 500GB SSD",
+    "display": "14inch FHD (1920 x 1080) Touch WVA"
+  },
+  {
+    "id": "623de7dd9c947d99dac53aca",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/5.jpg",
+    "name": "MSI Raider GE66 12UGS Core i7 12th Gen RTX 3070 Ti 8GB Graphics 15.6inch FHD Gaming Laptop",
+    "price": 538,
+    "model": "Raider GE66 12UGS",
+    "processor": "Intel Core i7-12700H (24M Cache, 3.50 GHz up to 4.70 GHz)",
+    "ram": "16GB (8GBx2) 4800MHz DDR5 RAM",
+    "storage": "2TB HDD & 2TB NVME SSD",
+    "display": "15.6inch UHD"
+  },
+  {
+    "id": "623de7ddff9fa850eace0dc0",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/6.jpg",
+    "name": "Microsoft Surface Pro 8 Core i7 11th Gen 1TB SSD 13inch MultiTouch 2-in-1 Detachable Laptop (EEB-00001)",
+    "price": 528,
+    "model": "Surface Pro 8",
+    "processor": "Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+    "ram": "16GB LPDDR4x RAM",
+    "storage": "1TB NVMe PCIe SSD",
+    "display": "13inch (2880 x 1920) PixelSense Flow MultiTouch Display"
+  },
+  {
+    "id": "623de7dd7dfbdae8e39ed485",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/7.jpg",
+    "name": "Razer Book 13 Core i7 11th Gen 512GB SSD 13.4inch FHD Touch Laptop",
+    "price": 433,
+    "model": "Razer Book 13",
+    "processor": "Intel Core i7-1165G7 Processor (12MB Cache, 2.80GHz up to 4.70GHz)",
+    "ram": "16GB Dual-Channel RAM",
+    "storage": "512GB PCIe SSD",
+    "display": "13.4inch (1920 x 1200) Full HD Touch Display"
+  },
+  {
+    "id": "623de7ddb4a53abfe93f3ff7",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/8.jpg",
+    "name": "Lenovo IdeaPad Gaming 3i Core i5 11th Gen GTX1650 4GB Graphics 15.6inch FHD Laptop",
+    "price": 754,
+    "model": "IdeaPad Gaming 3i",
+    "processor": "Intel Core i5-11300H (8M Cache, 2.60 GHz up to 4.40 GHz, with IPU)",
+    "ram": "8GB DDR4 3200MHz",
+    "storage": "1TB + SSD: 256GB NVMe",
+    "display": "NVIDIA GTX 1650 4GB"
+  },
+  {
+    "id": "623de7dd5f6f429a7173f166",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/9.jpg",
+    "name": "Acer Nitro 5 AN515-45-R4TJ Ryzen 7 256GB SSD RTX 3050Ti 4GB Graphics 15.6 FHD 144Hz Gaming Laptop",
+    "price": 777,
+    "model": "Nitro 5 AN515-45-R4TJ",
+    "processor": "AMD Ryzen 7 5800H (8-core, 16-thread, 20MB cache, up to 4.4 GHz)",
+    "ram": "16GB RAM + 256GB SSD + 1TB HDD",
+    "storage": "15.6inch 144Hz Full HD SlimBezel Display",
+    "display": "1080P FHD Display"
+  },
+  {
+    "id": "623de7dd7685dadbdf16e70c",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/10.jpg",
+    "name": "Xiaomi RedmiBook Pro 14 Ryzen 5 5500U 14inch Laptop",
+    "price": 379,
+    "model": "RedmiBook Pro 14",
+    "processor": "AMD Ryzen 5 5500U (8M Cache, 2.1GHz up to 4.0GHz, 6 cores",
+    "ram": "16GB DDR4 RAM",
+    "storage": "512GB SSD",
+    "display": "14inch (2560x1600) FHD+"
+  },
+  {
+    "id": "623de7dd864773dbc6248b0a",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/11.jpg",
+    "name": "Gigabyte AERO 15KB Core i7 10th Gen RTX 2060 Graphics 15.6 OLED UHD Gaming Laptop",
+    "price": 738,
+    "model": "Gigabyte AERO 15KB",
+    "processor": "Intel Core i7-10875H Processor (16MB Cache, 2.3GHz up to 5.1GHz)",
+    "ram": "16GB (8G x2) RAM",
+    "storage": "512GB NVMe PCIe SSD",
+    "display": "15inch (2560x1600) FHD+"
+  },
+  {
+    "id": "623de7dd6e7f66f4abac99bd",
+    "image": "https://raw.githubusercontent.com/SamiulxHasanx07/laptop-images/main/12.jpg",
+    "name": "Gigabyte AERO 15 OLED KC Core i7 10th Gen RTX 3060P 6GB Graphics 15.6 UHD Gaming Laptop",
+    "price": 623,
+    "model": "AERO 15 OLED KC",
+    "processor": "Intel Core i7-10870H Processor (16M Cache, 2.20 GHz up to 5.00 GHz)",
+    "ram": "16GB (8GBx2) RAM ",
+    "storage": "512GB SSD",
+    "display": "15.6 UHD"
+  }
+]

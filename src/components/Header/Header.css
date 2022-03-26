@@ -1,0 +1,35 @@
+.header-area{
+    background-color: #5A20CB;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1250px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.brand-logo h2{
+    color: #fff;
+    cursor:pointer;
+}
+.menu{
+    margin:0;
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-right: 20px;
+}
+.menu li:last-child{
+    margin-right: 0;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu li a:hover{
+    color: #e0e0e0;
+}

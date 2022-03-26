@@ -1,0 +1,46 @@
+.card{
+    width: 320px;
+    background-color: #fff;
+    padding: 10px 35px;
+    padding-bottom: 25px;
+}
+.laptop-img{
+    overflow: hidden;
+}
+.laptop-img:hover img{
+    transform: scale(1.20);
+    transition: .8s all ease;
+}
+.laptop-img img{
+    width: 100%;
+}
+.card .laptop-title{
+    font-size: 16px;
+}
+.card .laptop-details p{
+    margin: 8px 0;
+}
+.cart-price{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-price h4{
+    font-size: 32px;
+    margin: 0;
+}
+.cart-price button{
+    font-size: 18px;
+    border: none;
+    padding: 16px 20px; 
+    background-color: #dccaff;
+}
+
+.cart-price button:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #5A20CB;
+    border-radius: 100px;
+    transition: .5s all ease;
+}
