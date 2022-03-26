@@ -12,8 +12,8 @@ const ProductPicker = ({pickedLaptops, choseAgain, deleteItem, choseOne, finalSe
                 pickedLaptops.map(laptop=><AddedItem deleteItem={deleteItem} selected={laptop} key={laptop.id}></AddedItem>)
             }
             <div className="chose-btn">
-                <button onClick={choseOne} className='chose chose-one'>Chose One</button>
-                <button onClick={choseAgain} className='chose chose-again'>Chose Again</button>
+                <button onClick={choseOne} className='chose chose-one'>Choose One</button>
+                <button onClick={choseAgain} className='chose chose-again'>Choose Again</button>
             </div>
             {/* <FinalOne winner={winner}></FinalOne> */}
             <div>
