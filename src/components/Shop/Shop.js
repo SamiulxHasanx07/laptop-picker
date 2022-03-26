@@ -83,8 +83,8 @@ const Shop = () => {
             setPicked(removeAll);
         }else{
             Swal.fire({
-                title: 'Cart Is Empty!',
-                text: 'Please Select Laptop',
+                title: 'Cart Alreay Empty!',
+                text: 'Select Laptop & Chose One',
                 icon: 'info',
                 confirmButtonText: 'Ok'
               })

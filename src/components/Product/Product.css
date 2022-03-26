@@ -44,8 +44,6 @@
     border-radius: 100px;
     transition: .5s all ease;
 }
-
-
 @media only screen and (max-width: 1366px) {
     .card {
         width: 255px;
@@ -62,6 +60,6 @@
         margin:0 auto;
         width: 300px;
         padding: 10px 28px;
-        padding-bottom: 25px;
+        padding-bottom: 40px;
     }
 }

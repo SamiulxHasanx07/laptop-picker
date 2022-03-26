@@ -29,6 +29,7 @@
     .shop-container{
         padding: 0 10px;
         padding-top: 10px;
+        padding-bottom: 40px;
         display: flex;
         flex-direction: column;
         flex-direction: column-reverse;
