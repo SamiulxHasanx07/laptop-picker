@@ -19,7 +19,7 @@ const Qna = () => {
                     </div>
                     <div className='ans'>
                         <h3>State</h3>
-                        <p>useState একটি React Hook যা state Variable গুলোকে Functional Component রাখতে দেয়। এখানে একটি Initial Value এবং একটি SetterValue Function প্রদান করে থাকে। Setter Function এর মাধ্যমে Initial Value কে পরিবর্তন করা হয়ে থাকে। অর্থাৎ যদি পরবর্তিতে Setter Function এর মাধ্যমে কোন মান প্রাদান করা হয় তা Initial Value কে  Update করে। পরিবর্তন যোগ্য মান/ভ্যালুর জন্য useState ব্যবহার করা হয়ে থাকে। useState Asynchronous ভাবে কাজ করে থাকে, যার ফলে Line by Line Code Compile না করে useState এর Initial মান প্রদান করে দেয়, পরবর্তীতে ইনিশিয়াল মান Update/Code Compile করে New Value/Data প্রদান করে থাকে। </p>
+                        <p>State হলো React Hook যা state Variable গুলোকে Functional Component রাখতে দেয়। এখানে একটি Initial Value এবং একটি SetterValue Function প্রদান করে থাকে। Setter Function এর মাধ্যমে Initial Value কে পরিবর্তন করা হয়ে থাকে। অর্থাৎ যদি পরবর্তিতে Setter Function এর মাধ্যমে কোন মান প্রাদান করা হয় তা Initial Value কে  Update করে। পরিবর্তন যোগ্য মান/ভ্যালুর জন্য State ব্যবহার করা হয়ে থাকে। State Asynchronous ভাবে কাজ করে থাকে, যার ফলে Line by Line Code Compile না করে State এর Initial মান প্রদান করে দেয়, পরবর্তীতে ইনিশিয়াল মান Update/Code Compile করে New Value/Data প্রদান করে থাকে। ডাটা ফেচ, একটি ডাটার উপর নির্ভর করে ডাটা শো করানো, অর্থাৎ একটি ডাটার মান পাওয়ার পর অপর ডাটা শো করানো ইত্যাদি কাজ সম্পূর্ন করে থাকে।</p>
                     </div>
                 </div>
            </div>
