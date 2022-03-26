@@ -33,5 +33,9 @@
     .qna-area {
         padding: 0 15px;
     }
+    .qna-container .two{
+        flex-direction: column;
+    
+    }
     
 }
