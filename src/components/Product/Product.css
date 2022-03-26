@@ -46,6 +46,17 @@
 }
 
 
+@media only screen and (max-width: 1366px) {
+    .card {
+        width: 255px;
+        padding: 10px 20px;
+    }
+    .cart-price button{
+        padding: 12px 15px; 
+    }
+    
+}
+
 @media only screen and (max-width: 600px) {
     .card{
         margin:0 auto;

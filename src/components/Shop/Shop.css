@@ -1,6 +1,7 @@
 .shop-container{
     padding: 0 80px;
     padding-top: 30px;
+    padding-bottom: 60px;
     background-color: rgb(247 246 255);
     display: flex;
 }
@@ -12,6 +13,12 @@
 }
 
 
+@media only screen and (max-width: 1366px) {
+    .shop-container{
+        padding: 0 20px;
+        display: flex;
+    }
+}
 @media only screen and (max-width: 600px) {
     .product-area{
         display: grid;

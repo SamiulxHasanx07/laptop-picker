@@ -1,0 +1,37 @@
+.qna-area{
+    padding: 0 80px;
+    padding-bottom: 50px;
+}
+.qna-container{
+    background-color: rgb(247 246 255);
+    padding: 15px 40px;
+    margin-top: 40px;
+}
+.qna-container .question{
+    font-size: 25px;
+    margin: 0;
+    color: #5A20CB;
+}
+
+.qna-container .two{
+    display: flex;
+    justify-content: space-between;
+
+}
+.qna-container .two .ans{
+    margin-right: 20px;
+}
+.qna-container .two .ans:last-child{
+    margin-right: 0;
+}
+
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
+    .qna-container {
+        padding: 15px 15px;
+    }
+    .qna-area {
+        padding: 0 15px;
+    }
+    
+}

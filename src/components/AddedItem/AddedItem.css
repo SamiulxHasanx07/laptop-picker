@@ -26,3 +26,9 @@
 .selected-title{
     font-size: 14px;
 }
+
+@media only screen and (max-width: 1366px) {
+    .selected-title{
+        padding: 0 12px;
+    }
+}

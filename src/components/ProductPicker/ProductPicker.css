@@ -51,6 +51,15 @@
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1366px) {
+    .pd-picker-area{
+    width: 341px;
+    margin-left: 17px;
+    margin-top: 30px;
+    padding: 6px 15px;
+    }
+
+}
 
 @media only screen and (max-width: 600px) {
     .pd-picker-area{
