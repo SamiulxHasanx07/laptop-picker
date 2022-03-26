@@ -22,8 +22,8 @@ const ProductPicker = ({pickedLaptops, choseAgain, deleteItem, choseOne, finalSe
                     <div>
                         <img src={image} alt="" />
                     </div>
-                    <h5>{name}</h5>
-                    <p>{price}</p>
+                    <h4>{name? name.slice(0,35)+'...' :''}</h4>
+                    <p>{price? '$' + price : ''}</p>
                 </div>
             </div>
         </div>

@@ -31,10 +31,13 @@ const Shop = () => {
     const [finalSelect, setFinalSelect] = useState({});
     // Chose One 
     const choseOne = () =>{
-        const randomNumber = Math.floor(Math.random() * picked.length);
-        const data = picked[randomNumber];
-        setFinalSelect(data);
-        console.log(finalSelect);
+        if(picked.length>0){
+            const randomNumber = Math.floor(Math.random() * picked.length);
+            const data = picked[randomNumber];
+            setFinalSelect(data);
+            console.log(finalSelect);
+
+        }
         
     }
 

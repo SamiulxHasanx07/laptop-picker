@@ -42,4 +42,8 @@
 }
 .final-election div img{
     width: 100%;
+    transform: scale(1.06);
+}
+.final-election p{
+    font-weight: bold;
 }
