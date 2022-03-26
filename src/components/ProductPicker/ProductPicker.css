@@ -39,6 +39,7 @@
 .final-election div{
     width: 50px;
     height: 50px;
+    overflow: hidden;
 }
 .final-election div img{
     width: 100%;
@@ -46,4 +47,26 @@
 }
 .final-election p{
     font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pd-picker-area{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding: 6px 20px;
+        background: #fff;
+    }
+    .final-election h4,    
+    .selected-title {
+        padding: 0 16px;
+    }
+
+    .pd-picker-area{
+        width: 85%;
+        margin: 10px auto;
+        padding: 6px 20px;
+        background: #fff;
+    }
 }

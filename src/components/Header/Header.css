@@ -33,3 +33,9 @@
 .menu li a:hover{
     color: #e0e0e0;
 }
+
+@media only screen and (max-width: 600px) {
+    .menu {
+      display: none;
+    }
+  }

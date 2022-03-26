@@ -46,8 +46,12 @@ const Shop = () => {
     // chose again handler
     const choseAgain = () => {
         const removeAll = [];
+        const objValidation = Object.keys(finalSelect).length === 0;
         if(picked.length>0){
             setPicked(removeAll);
+        }
+        if(!objValidation){
+            setFinalSelect({});
         }
 
     }

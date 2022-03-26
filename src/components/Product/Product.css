@@ -44,3 +44,13 @@
     border-radius: 100px;
     transition: .5s all ease;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        margin:0 auto;
+        width: 300px;
+        padding: 10px 28px;
+        padding-bottom: 25px;
+    }
+}
