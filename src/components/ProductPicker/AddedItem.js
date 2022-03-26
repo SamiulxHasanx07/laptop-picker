@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 const AddedItem = ({selected}) => {
     return (
-        <div className=''>  
+        <div>  
              <div className="display-selected-product">
                  <div className="dsp-img">
                     <img src={selected.image} alt="" />

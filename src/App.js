@@ -8,6 +8,7 @@ function App() {
       <Header></Header>
       <Shop></Shop>
     </div>
+    
   );
 }
 

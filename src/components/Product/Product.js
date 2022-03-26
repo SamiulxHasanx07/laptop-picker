@@ -7,7 +7,7 @@ const Product = ({laptop, slectBtn}) => {
     return (
         <div className='card'>
             <div className="laptop-img">
-                <img src={image} alt="" />
+                <img src={image} alt=""/>
             </div>
             <div className="laptop-details">
                 <h2 className="laptop-title">{name}</h2>

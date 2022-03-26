@@ -10,7 +10,6 @@ const ProductPicker = ({pickedLaptops, choseAgain}) => {
             {
                 pickedLaptops.map(laptop=><AddedItem selected={laptop} key={laptop.id}></AddedItem>)
             }
-
             <div className="chose-btn">
                 <button className='chose chose-one'>Chose One</button>
                 <button onClick={choseAgain} className='chose chose-again'>Chose Again</button>

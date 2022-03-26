@@ -21,7 +21,6 @@ const Shop = () => {
         if(!exist){
             const selectedCart = [...picked, laptop];
             setPicked(selectedCart);
-
         }
        
     }
